@@ -7,7 +7,8 @@
 body {
   display: flex;
   flex-direction: column;
-  margin: 80px 0 45px 0;
+  margin: 0;
+  padding: 0;
   font-family: system-ui;
 }
 
@@ -31,7 +32,7 @@ body {
 }
 
 .card {
-  margin: 20px 10%;
+  margin: 90px 10%;
   border: 5px solid #252629;
   padding: 3% 10%;
   scroll-margin-top: 10px;
