@@ -34,7 +34,7 @@ body {
   margin: 20px 10%;
   border: 5px solid #252629;
   padding: 3% 10%;
-  scroll-margin-top: 100px;
+  scroll-margin-top: 10px;
   border-radius: 2rem;
   position: relative;
 }
@@ -53,6 +53,7 @@ body {
 
 .showanswer {
   display: block;
+  position: relative;
   font-size: 30px;
   width: 240px;
   height: 70px;
@@ -64,6 +65,7 @@ body {
 }
 
 .one {
+  position: relative;
   text-align: center;
   width: auto;
   height: auto;
