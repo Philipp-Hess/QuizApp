@@ -1,17 +1,18 @@
-body {
+* {
   box-sizing: border-box;
 }
 
-div {
+header {
   border: 1px solid green;
   width: 390px;
-  height: 844px;
+  height: 60px;
+  padding: 16px 32px;
 }
 
 h1 {
   background-color: black;
   color: rgb(36, 90, 30);
   text-align: center;
-  align-items: center;
-  align-self: center;
+  width: 300px;
+  margin: 0;
 }
