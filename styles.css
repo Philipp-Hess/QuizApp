@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: system-ui;
+}
+
 header {
   border: 5px solid green;
   border-radius: 16px;
@@ -37,6 +42,7 @@ h1 {
 
 .one {
   text-align: center;
+  width: auto;
   font-size: 12px;
   color: rgb(41, 40, 40);
   background-color: white;
