@@ -76,3 +76,11 @@ body {
   border-radius: 6px;
   margin: auto;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(241, 101, 197);
+  color: #4eb64c;
+}
