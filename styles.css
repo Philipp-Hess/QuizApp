@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  border: 5px solid green;
+  padding: 16px 32px;
+  background-color: black;
+}
+
+h1 {
+  background-color: black;
+  color: rgb(36, 90, 30);
+  text-align: center;
+  width: 300px;
+  margin: 0;
+}
