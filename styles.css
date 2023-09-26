@@ -7,7 +7,8 @@
 body {
   display: flex;
   flex-direction: column;
-  margin: 80px 0 45px 0;
+  margin: 0;
+  padding: 0;
   font-family: system-ui;
 }
 
@@ -31,7 +32,7 @@ body {
 }
 
 .card {
-  margin: 20px 10%;
+  margin: 90px 10%;
   border: 5px solid #252629;
   padding: 3% 10%;
   scroll-margin-top: 10px;
@@ -43,11 +44,11 @@ body {
   margin: 0 0 10px 0;
 }
 
-.material-symbols-outlined {
+.bookmarkwrapper {
   font-size: 2em;
   padding: 6px 12px;
   position: absolute;
-  top: -15px;
+  top: -25px;
   right: -1px;
 }
 
@@ -55,12 +56,12 @@ body {
   display: block;
   position: relative;
   font-size: 30px;
-  width: 240px;
-  height: 70px;
+  width: 230px;
+  height: 60px;
   color: white;
-  background-color: rgb(164, 107, 164);
-  border: 2px solid rgb(136, 85, 142);
-  border-radius: 4px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid #4eb64c;
+  border-radius: 8px;
   margin: 1.5em auto;
 }
 
@@ -70,9 +71,47 @@ body {
   width: auto;
   height: auto;
   font-size: 20px;
-  color: rgb(41, 40, 40);
-  background-color: white;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   border: 2px solid grey;
   border-radius: 6px;
   margin: auto;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: #4eb64c;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #4eb64c;
+  padding: 1.1rem;
+  width: 100%;
+  display: block;
+}
+
+.navbar-links li :hover {
+  background-color: crimson;
+}
+
+.correctanswer {
+  text-decoration: none;
+  color: white;
 }
