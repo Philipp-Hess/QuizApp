@@ -1,0 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --green: #4eb64c;
+  --black: rgb(0, 0, 0);
+  --red: crimson;
+}
